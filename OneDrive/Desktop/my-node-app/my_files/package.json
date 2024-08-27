@@ -2,7 +2,7 @@
   "name": "my_files",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",  
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",  
-    "mongoose": "^5.12.3"  
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^5.13.22"
   }
 }
