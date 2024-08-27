@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors()); // Add this if you're making cross-origin requests
+app.use(cors({ origin: 'https://temidayobelloh.github.io/my_Portfolio/' }));
 
 // MongoDB connection
 mongoose.connect('mongodb://localhost:27017/myPortfolioDB', { useNewUrlParser: true, useUnifiedTopology: true })
